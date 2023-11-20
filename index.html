@@ -4,11 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Beauty Zone</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Play:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <nav>
+        <nav class="nav_header">
             <a href="#"><img src="images/logo.svg" alt="Логотип Beauty Zone"></a>
           <ul>
             <li><a class="link_nav" href="#" target="_blank">Про нас</a></li>
@@ -22,54 +26,55 @@
             </li>
           </ul>
         </nav>
-    </header>
-    <main>
         <section>
             <p style="color:#011C44">Косметологічна клініка</p>
             <h1>Beauty Zone</h1>
             <button type="button">Замовити дзвінок</button>
-            <p style="color:#4A4A4A";>Запишись та отримай безкоштовну консультацію нашого косметолога</p>
+            <p style="color:#4A4A4A";>Запишись та отримай безкоштовну <br> консультацію нашого косметолога</p>
         </section>
         <section>
+    </header>
+    <main>
             <h2> <span style="color:#011C44">Перевтілюйтесь в</span> <span style="color:#2B7FFF">Beauty Zone!</span></h2>
-            <p style="color:#011C44">Наша косметологічна клініка пропонує вам професійні послуги з догляду за шкірою обличчя та тіла. </p>
-            <p style="color:#011C44">B <b>Beauty Zone</b> ми гарантуємо найвищі стандарти якості та приємний сервіс. 
+            <p class="text_about" style="color:#011C44">Наша косметологічна клініка пропонує вам професійні послуги з догляду за шкірою обличчя та тіла. </p>
+            <p class="text_about" style="color:#011C44">B <b>Beauty Zone</b> ми гарантуємо найвищі стандарти якості та приємний сервіс. 
                Наші косметологічні процедури та препарати допоможуть вам підтримувати свою красу та молодість. З нами краса назавжди!</p>
                <img src="images/mask_group.jpg" alt="Процедури для обличчя">
                <img src="images/mask_group2.jpg" alt="Процедури для обличчя">
         </section>
-        <section>
-            <h2><span style="color:#011C44">Чому люди</span> <span style="color:#2B7FFF">обирають нас</span></h2>
-            <article>
+        <section class="section_why">
+            <h2><span style="color:#011C44">Чому люди</span><br> <span style="color:#2B7FFF">обирають нас</span></h2>
+            <article class="section_why_items">
                 <img src="images/game-icons_materials-science.jpg" alt="Медична наука">
-                <p style="color:#000000">Всі наші косметологи мають вищу медичну освіту та стаж роботи від 5 років</p>
+                <p  style="color:#000000">Всі наші косметологи мають вищу медичну освіту та стаж роботи від 5 років</p>
             </article>
-            <article>
+            <article class="section_why_items">
                 <img src="images/medicine_cosmetics.jpg" alt="Медична косметика">
                 <p style="color:#000000">Використовуємо тільки професійне обладнання та косметику, перевірену часом</p>
             </article>
-            <article>
+            <article class="section_why_items">
                 <img src="images/ph_crown-light.jpg" alt="Корона краси">
                 <p style="color:#000000">Наша мета - підкреслити переваги та приховати недоліки, а не переробити</p>
             </article>
         </section>
-        <section>
-            <h2 style="color:#011C44">Наші <span style="color:#2B7FFF">процедури</span></h2>
+        <section class="section_procedure">
+            <h2  style="color:#011C44">Наші <span style="color:#2B7FFF">процедури</span></h2>
             <article>
-                <img src="images/mask_for_face..svg" alt="Маска для обличчя">
-                <h3>Маски для обличчя</h3>
+                <h3 class="section_procedure_masks">Маски для обличчя</h3>
             </article>
             <article>
-                <img src="images/inaction_for_face.svg" alt="Ін'єкції для обличчя">
                 <h3>Ін'єкції</h3>
             </article>
             <article>
-                <img src="images/piling_for_face.svg" alt="Пілінги для обличчя">
                 <h3>Пілінги</h3>
             </article>
         </section>
         <section>
-            <h2 style="color:#011C44">Як нас <span style="color:#2B7FFF">знайти</span> </h2>
+            <h2 class="section_contacts" style="color:#011C44">Як нас <span style="color:#2B7FFF">знайти</span> </h2>
+            <map name="Карта місцезнаходження косметологічної клініки" target="_blank"> 
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2540.9325719461126!2d30.5181753!3d50.4423566!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cef8b5f6338d%3A0x25c7f06ad686451c!2z0LHRg9C7LiDQotCw0YDQsNGB0LAg0KjQtdCy0YfQtdC90LrQviwgNSwg0JrQuNC10LIsIDAyMDAw!5e0!3m2!1sru!2sua!4v1700509019112!5m2!1sru!2sua"
+                 width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </map>    
         </section>
     </main>
     <footer>
@@ -93,10 +98,10 @@
                     <a href="#" target="_blank"><img src="images/instagram-icon.svg" alt="Instagram icon"></a>
                 </li>
             </ul>
-                 <a href="#" style="color:#FFFFFF">Політика конфіденційності</a>
-                 <p style="color:#747272">© 2022 Дані захищені bla bla vla</p>
+                 <a style="text-decoration-line: none;" href="#" style="color:FFFFFF">Політика конфіденційності</a>
+                 <p class="footer_rights" style="color:#747272">© 2022 Дані захищені</p>
           </address>
-          <img src="images/medicine_photo.svg" alt="Товари длякраси">
+          <img src="images/medicine_photo.svg" alt="Товари для краси">
     </footer> 
 </body>
 </html>

@@ -5,12 +5,27 @@
     --color-primary-light:#FFFFFF;
 }
 
+body{
+    font-family: 'Roboto', 'Play', sans-serif;
+    font-size: 18px;
+}
+
+header{
+    background-image: url(images/header_background.jpg);
+}
+
+.nav_header{
+    background-color: rgba(255, 255, 255, 0.25);
+}
+
 ul{
     list-style-type: none;
+    font-size: 18px;
 }
 
 .link_nav {
     color:var(--color-brand);
+    text-decoration: none;
 }
 
 .link_nav:hover {
@@ -19,14 +34,20 @@ ul{
 
 h1 {
     color:var(--color-brand-light);
+    font-size: 140px;
+    font-family: 'Play', sans-serif;
 }
 
 button {
     color:var(--color-primary-light);
     background-color: var(--color-brand-light);
     border: 2px solid var(--color-brand-light);
-    border-radius: 8px;
+    border-radius: 32px;
     cursor: pointer;
+    width: 219px;
+    height: 53px;
+    padding: 16px, 32px, 16px, 32px;
+    font-size: 18px ;
 }
 
 button:hover {
@@ -34,11 +55,55 @@ button:hover {
     background-color: transparent;
 }
 
+h2{
+    font-family: 'Play', sans-serif;
+    font-size: 64px;
+}
+
+.text_about{
+    font-size: 22px;
+}
+
+.section_why{
+    background-color: #2B7FFF33;
+    text-align: center ;
+}
+
+.section_why_items{
+    background-color: #FFFFFF;
+    width: 316px;
+    height: 181px;
+    padding: 24px, 32px, 24px, 32px;
+    border-radius: 32px;
+    box-shadow: 0px 4px 4px 0px #A8C6F561;
+}
+
+.section_procedure{
+    text-align: center;
+}
+
+.section_procedure_masks{
+    
+}
+
+.section_contacts{
+    text-align: center;
+}
+
+footer{
+    background-color: #011C44;
+}
+
 .link_footer {
     color:var(--color-primary-light);
+    text-decoration: none;
 }
 
 .link_footer:hover {
     color:var(--color-brand-light)
+}
+
+.footer_rights{
+    font-size: 13px;
 }
 
